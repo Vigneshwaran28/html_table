@@ -1,0 +1,189 @@
+/* Root */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+/* Navbar */
+
+
+header{
+    padding: 0%;
+    margin: 0%;
+   background-color: burlywood;
+    background-size: cover;
+    
+    
+    
+}
+li{
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: aliceblue;
+    list-style-type:none;
+    font-size: 50px;
+    display: inline-block;
+        
+}
+.DivNav{
+    display: flex;
+    justify-content: center; /* Centers the ul horizontally */
+    align-items: center;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+   
+}
+li :hover{
+
+    color: black;
+}
+
+a:active{
+    color: darkslategrey;
+}
+/* first table */
+.tableDiv table th, tr,td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.tableDiv{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.basicTable
+{
+    padding: 3rem;
+    background-color: cadetblue;
+  
+}
+
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: cursive;
+   
+}
+hr{
+    /* border: 5px solid black; */
+}
+/* table two */
+#Second{
+    font-size: 2rem;
+    text-decoration: overline;
+    padding: 1rem;
+}
+#Second:hover{
+    
+    text-decoration: underline;
+}
+
+.NormalTable{
+    background: hsla(18, 76%, 85%, 1);
+
+    background: linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6CFBE", endColorstr="#B9DCF2", GradientType=1 );
+    font-family: cursive;
+}
+.SecRowTable th{
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.SecRowTable th:hover{
+
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 1rem;
+}
+.secTable{
+ 
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.SecRowTable td{
+    background-color: blanchedalmond;
+
+
+}
+
+.SecRowTable td:nth-child(even){
+    background-color: rgb(203, 142, 50);
+    color: aliceblue;
+
+}
+
+
+/* Third table */
+#Three{
+    font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 5rem;
+    background-image: url("https://plus.unsplash.com/premium_photo-1674748732558-ec38737e30ee?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: rgb(158, 1, 255,0.2);
+    /* background-blend-mode: multiply; */
+    cursor: url("/img/game.png"), auto;
+    border-radius: 5px;
+}
+caption{
+    text-align: center;
+}
+.chessborder{
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.ThirdDiv:hover{
+    cursor: url("/img/king.png"), auto;
+}
+.ThirdDiv{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Chess th{
+    width: 90px;
+    height: 90px;
+
+}
+.Chess td{
+    /* background-color: black; */
+    width: 90px;
+    height: 90px;
+
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
